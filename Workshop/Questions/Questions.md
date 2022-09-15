@@ -106,16 +106,11 @@ method arrayUpToN(n: int) returns (a: array<int>)
     }
 }
 
-3 invariants are provided in the loop. 
-Give a short explanation of what each of the three invariants attempt to prove.
+4 invariants are provided in the loop. 
+Give a short explanation of what each of the three invariants attempt to show.
 1. 
 2.
 3.
+4.
 
 Which invariants are not needed?
-
-# Question 7
-Add
-
-# Question 8
-Add

@@ -15,8 +15,8 @@ method max(a:array<int>) returns(max:int)
 
     while i < a.Length
         invariant i <= a.Length //i is bounded by the array
-        invariant forall j :: 0 <= j < i ==> max >= a[j] //max is bigger or equal to anything seen so far (up to j)
-        invariant exists j :: 0 <= j < i && max==a[j]    //max exists somewhere in the seen portion of the array
+        //Invariant 1
+        //Invariant 2
     {
         if a[i] > max
         {
